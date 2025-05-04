@@ -23,6 +23,7 @@ public partial class MainWindow : Window
 
     private void customControl_Click(object sender, RoutedEventArgs e)
     {
-        txtBlock.Text = "You have just click yout custom control";
+        
     }
+
 }
