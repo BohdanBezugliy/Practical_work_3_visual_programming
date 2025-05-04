@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Practical_work_3_visual_programming"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="500">
-    <Grid>
-        <local:MyUserControl/>
-    </Grid>
+        Title="MainWindow" Height="350" Width="604">
+    <StackPanel>
+        <local:MyCustomControl x:Name="customControl" 
+                               Content="Click Me" 
+                               Width="70" Margin="10" 
+                               Click="customControl_Click"/>
+        <TextBlock Name="txtBlock" Width="250" Height="30"/>
+    </StackPanel>
 </Window>
