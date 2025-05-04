@@ -18,9 +18,9 @@ namespace Practical_work_3_visual_programming
     /// <summary>
     /// Interaction logic for UserControlLogin.xaml
     /// </summary>
-    public partial class UserControlLogin : UserControl
+    public partial class LoginControl : UserControl
     {
-        public UserControlLogin()
+        public LoginControl()
         {
             InitializeComponent();
         }

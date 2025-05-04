@@ -20,10 +20,4 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
-
-    private void customControl_Click(object sender, RoutedEventArgs e)
-    {
-        
-    }
-
 }
